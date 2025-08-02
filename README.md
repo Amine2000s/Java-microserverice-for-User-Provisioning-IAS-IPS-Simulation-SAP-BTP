@@ -1,0 +1,2 @@
+# Java-microserverice-for-User-Provisioning-IAS-IPS-Simulation---SAP-BTP
+A Spring Boot-based microservice designed to simulate secure user provisioning using **SAP BTP**, **XSUAA**, and **SAP Identity Authentication Service (IAS)** concepts. This proof-of-concept demonstrates how to validate incoming requests via **JWT tokens**, authorize user actions based on scopes, and provision users securely.
