@@ -1,0 +1,13 @@
+{
+  "xsappname": "sap-user-provisioning-app",
+  "tenant-mode": "dedicated",
+  "scopes": [
+    {
+      "name": "$XSAPPNAME.UserProvisioner",
+      "description": "Allows user provisioning"
+    }
+  ],
+  "authorities": [
+    "$XSAPPNAME.UserProvisioner"
+  ]
+}
