@@ -14,16 +14,16 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/users")
-public class UserController {
+@RequestMapping("/api/employees")
+public class employeeController {
 
     private final IASprovisioningService provisioningService;
 
 
 
-    private static final Logger logger = LoggerFactory.getLogger(UserController.class);
+    private static final Logger logger = LoggerFactory.getLogger(employeeController.class);
 
-    public UserController(IASprovisioningService provisioningService) {
+    public employeeController(IASprovisioningService provisioningService) {
         this.provisioningService = provisioningService;
     }
 
