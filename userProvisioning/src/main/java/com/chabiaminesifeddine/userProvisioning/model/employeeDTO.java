@@ -13,8 +13,6 @@ public class UserDTO {
     private String role;
 
 
-    private LocalDateTime createdAt;
 
-    private String provisionedBy;
 
 }
